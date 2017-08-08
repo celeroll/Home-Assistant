@@ -1,4 +1,7 @@
-# raspberrypi3
-Installation of raspberry pi3
+# Home assistant
 
-Test text here
+This is a list of different installation steps that I have performed:
+
+## Install Amazon dash
+For the installation I have followed the steps from BRUH.
+[BRUH Dash ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
