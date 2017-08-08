@@ -17,3 +17,7 @@ git clone https://github.com/maddox/dasher.git
 cd dasher
 sudo npm install
 ```
+
+If there is a need to remove autostart, then:
+
+`sudo update-rc.d dasher remove`
