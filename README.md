@@ -21,3 +21,7 @@ sudo npm install
 If there is a need to remove autostart, then:
 
 `sudo update-rc.d dasher remove`
+
+## Install Sonoff dual
+General information is found [here ](https://github.com/arendst/Sonoff-Tasmota) (sonoff tasmota github). But since sonoff dual need additional soldering, here is the better picture for the GPIO0 PIN.
+![Sonoff dual GPIO0](images/2017/08/sonoff dual gpio0.jpg)
