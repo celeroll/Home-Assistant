@@ -24,4 +24,4 @@ If there is a need to remove autostart, then:
 
 ## Install Sonoff dual
 General information is found [here ](https://github.com/arendst/Sonoff-Tasmota) (sonoff tasmota github). But since sonoff dual need additional soldering, here is the better picture for the GPIO0 PIN.
-![Sonoff dual GPIO0](images/2017/08/sonoff dual gpio0.jpg)
+![Sonoff dual GPIO0](images/2017/08/sonoff_dual_gpio0.jpg)
