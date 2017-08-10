@@ -3,7 +3,7 @@
 This is a list of different installation steps that I have performed:
 
 ## MQTT
-Very good description for installing MQTT mosquitto are:
+Very good descriptions for installing MQTT mosquitto are:
 
 [Video BRUH](https://www.youtube.com/watch?v=AsDHEDbyLfg)
 
