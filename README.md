@@ -2,6 +2,20 @@
 
 This is a list of different installation steps that I have performed:
 
+## MQTT
+Very good description for installing MQTT mosquitto are:
+
+[Video BRUH](https://www.youtube.com/watch?v=AsDHEDbyLfg)
+
+[Video good description](https://www.youtube.com/watch?v=1CGfGuZqmhc&t)
+
+Listen to all mosquitto commands:
+```
+mosquitto_sub -d -t "#"
+```
+
+
+
 ## Install Amazon dash
 For the installation I have followed the steps from BRUH.
 [BRUH Dash ](http://www.bruhautomation.com/single-post/2016/11/22/How-To-Use-an-Amazon-Dash-with-IFTTT-and-Home-Assistant)
