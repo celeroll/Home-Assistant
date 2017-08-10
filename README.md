@@ -13,7 +13,7 @@ Listen to all mosquitto commands:
 ```
 mosquitto_sub -d -t "#"
 ```
-
+Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assistant.io/t/mqtt-working-mosquitto-cloudmqtt-bridge/1830/5)
 
 
 ## Install Amazon dash
