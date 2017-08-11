@@ -36,6 +36,8 @@ sudo /etc/init.d/mosquitto start
 
 Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assistant.io/t/mqtt-working-mosquitto-cloudmqtt-bridge/1830/5)
 
+And also here is detail what to do for bridging mosquitto and cloudmqtt [bridge mosquitto and cloudmqtt](https://github.com/bastshoes/hass_config/blob/master/README.md)
+
 
 ## Install Amazon dash
 For the installation I have followed the steps from BRUH.
