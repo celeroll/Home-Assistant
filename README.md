@@ -2,7 +2,7 @@
 
 This is a list of different installation steps that I have performed:
 
-## Arduino 
+## Arduino
 This is an instruction how to install arduino IDE postable.
 https://youtu.be/jpjfVc-9IrQ?t=556
 
@@ -13,10 +13,19 @@ Very good descriptions for installing MQTT mosquitto are:
 
 [Video good description](https://www.youtube.com/watch?v=1CGfGuZqmhc&t)
 
+[Autostart description](http://www.switchdoc.com/2016/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/)
+
 Listen to all mosquitto commands:
 ```
 mosquitto_sub -d -t "#"
 ```
+Start and stop mosquitto broker, even if autostartart is enabled:
+```
+sudo /etc/init.d/mosquitto stop
+
+sudo /etc/init.d/mosquitto start
+```
+
 Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assistant.io/t/mqtt-working-mosquitto-cloudmqtt-bridge/1830/5)
 
 
