@@ -2,6 +2,10 @@
 
 This is a list of different installation steps that I have performed:
 
+## Arduino 
+This is an instruction how to install arduino IDE postable.
+https://youtu.be/jpjfVc-9IrQ?t=556
+
 ## MQTT
 Very good descriptions for installing MQTT mosquitto are:
 
