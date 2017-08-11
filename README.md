@@ -5,6 +5,7 @@ This is a list of different installation steps that I have performed:
 ## Install Home Assistant, Samba, LetsEncrypt
 
 [BRUH Video get started again](https://www.youtube.com/watch?v=G8XWsXlfGFQ)
+
 [BRUH Portforwarding, DNS, Encryption](https://www.youtube.com/watch?v=BIvQ8x_iTNE)
 
 ## Arduino
