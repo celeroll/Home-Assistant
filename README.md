@@ -2,6 +2,10 @@
 
 This is a list of different installation steps that I have performed:
 
+## Install Home Assistant, Samba, LetsEncrypt
+
+[BRUH Video get started again](https://www.youtube.com/watch?v=G8XWsXlfGFQ)
+
 ## Arduino
 This is an instruction how to install arduino IDE postable.
 https://youtu.be/jpjfVc-9IrQ?t=556
@@ -18,6 +22,8 @@ Very good descriptions for installing MQTT mosquitto are:
 Listen to all mosquitto commands:
 ```
 mosquitto_sub -d -t "#"
+mosquitto_sub -d -u username -P password -t "#"
+
 ```
 Start and stop mosquitto broker, even if autostartart is enabled:
 ```
