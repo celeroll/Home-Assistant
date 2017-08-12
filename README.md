@@ -8,6 +8,10 @@ This is a list of different installation steps that I have performed:
 
 [BRUH Portforwarding, DNS, Encryption](https://www.youtube.com/watch?v=BIvQ8x_iTNE)
 
+Update procedure for All in one installation:
+
+[Update All in One HASS](https://home-assistant.io/docs/installation/raspberry-pi-all-in-one/#upgrading)
+
 ## Arduino
 This is an instruction how to install arduino IDE postable.
 https://youtu.be/jpjfVc-9IrQ?t=556
