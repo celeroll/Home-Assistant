@@ -13,7 +13,7 @@ Update procedure for All in one installation:
 [Update All in One HASS](https://home-assistant.io/docs/installation/raspberry-pi-all-in-one/#upgrading)
 
 ## Arduino
-This is an instruction how to install arduino IDE postable.
+This is an instruction how to install arduino IDE "portable".
 https://youtu.be/jpjfVc-9IrQ?t=556
 
 ## MQTT
