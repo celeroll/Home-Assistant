@@ -31,7 +31,7 @@ mosquitto_sub -d -t "#"
 mosquitto_sub -d -u username -P password -t "#"
 
 ```
-Start and stop mosquitto broker, even if autostartart is enabled:
+Start and stop mosquitto broker, even if autostart is enabled:
 ```
 sudo /etc/init.d/mosquitto stop
 
