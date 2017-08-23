@@ -14,7 +14,12 @@ Update procedure for All in one installation:
 
 ## Arduino
 This is an instruction how to install arduino IDE "portable".
+
 https://youtu.be/jpjfVc-9IrQ?t=556
+
+This is the instruction to install ESP8266 with wiring.
+
+https://github.com/bruhautomation/ESP-MQTT-JSON-Multisensor
 
 ## MQTT
 Very good descriptions for installing MQTT mosquitto are:
