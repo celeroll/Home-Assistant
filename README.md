@@ -12,6 +12,13 @@ Update procedure for All in one installation:
 
 [Update All in One HASS](https://home-assistant.io/docs/installation/raspberry-pi-all-in-one/#upgrading)
 
+Restart HASS:
+
+```
+sudo systemctl restart home-assistant.service
+```
+
+
 ## Arduino
 This is an instruction how to install arduino IDE "portable".
 
