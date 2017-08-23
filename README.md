@@ -28,6 +28,11 @@ This is the instruction to install ESP8266 with wiring.
 
 https://github.com/bruhautomation/ESP-MQTT-JSON-Multisensor
 
+Here is general information about ESP8266-Arduino
+
+https://github.com/esp8266/Arduino
+
+
 ## MQTT
 Very good descriptions for installing MQTT mosquitto are:
 
