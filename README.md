@@ -48,6 +48,7 @@ Start and stop mosquitto broker, even if autostart is enabled:
 sudo /etc/init.d/mosquitto stop
 
 sudo /etc/init.d/mosquitto start
+user: alop/prezime
 ```
 
 Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assistant.io/t/mqtt-working-mosquitto-cloudmqtt-bridge/1830/5)
