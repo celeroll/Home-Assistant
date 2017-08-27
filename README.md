@@ -19,10 +19,12 @@ sudo systemctl restart home-assistant.service
 ```
 
 
-## Arduino
+## Arduino / ESP8266 / NodeMCU
+
 This is an instruction how to install arduino IDE "portable".
 
 https://youtu.be/jpjfVc-9IrQ?t=556
+
 
 This is the instruction to install ESP8266 with wiring.
 
@@ -31,6 +33,11 @@ https://github.com/bruhautomation/ESP-MQTT-JSON-Multisensor
 Here is general information about ESP8266-Arduino
 
 https://github.com/esp8266/Arduino
+
+Good example for simple integration analog LED with HA over MQTT
+
+https://github.com/corbanmailloux/esp-mqtt-rgb-led
+
 
 
 ## MQTT
