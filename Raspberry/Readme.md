@@ -19,7 +19,24 @@ Samba should be installed from `My OSMC` without problems.
 
 ### Plex
 For access to a plex server, I use Kodi add on `PlexKodiConnect`.
-- File for download can be found here: [`PlexKodiConnect`](files/).
+- File for download can be found here: [PlexKodiConnect](files/).
 
 Like to source is here:
 [PlexKodiConnect GitHub](https://github.com/croneter/PlexKodiConnect)
+
+## Skin
+I have used a skin "Xonfluence", because the menu can be fully customized.
+- File for download can be found here: [hellyrepo.kodi](files/).
+
+Like to source is here:
+[Xonfluence GitHub](https://github.com/Helly1206/skin.xonfluence)
+
+- Menu can be edited directly in the `settings.xml` file:
+ ```C:\Users\XXX\AppData\Roaming\Kodi\userdata\addon_data\skin.xonfluence```
+
+- However it is important, that the skin is not active, when editing the file. Skin has to be disabled first. Otherwise, the changes will not be taken.
+
+
+## Toggle fullscreen/window mode
+
+## BG Repository
