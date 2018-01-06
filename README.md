@@ -2,7 +2,7 @@
 
 [Setup.md][d21dcd3b]
 
-  [d21dcd3b]: Raspberry/Setup.md "Setup.md"
+  [d21dcd3b]: Raspberry/Readme.md "Setup.md"
 
 # Home assistant
 
