@@ -32,6 +32,8 @@ https://github.com/notoriousbdg/hassio-addons
 https://github.com/bestlibre/hassio-addons
 ```
 
+### Grafana
+
 Grafana add on, install plugins, use this info here:
 ```
 {
@@ -43,6 +45,14 @@ Grafana add on, install plugins, use this info here:
   ]
 }
 ```
+
+### InfluxDB
+After install of hassio plugin, it is necessery to create a database for hassio.
+To do this, go into ssh and enter this code:
+
+`curl -i -XPOST http://hassio.local:8086/query --data-urlencode "q=CREATE DATABASE home_assistant"`
+
+
 
 
 
