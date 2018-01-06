@@ -46,5 +46,7 @@ To be able to map a mouse wheel for a specific Kodi command, it is important, th
 For BG subtitles, there is a repository hosted by `martinstz`.
 - File for download can be found here: [mar33](files/).
 
-- Like to source is here:
+- Like to source is here (always look for the last post):
 [Mar33 BG repository](https://kodibg.org/forum/post-8946.html)
+
+## Ambylight

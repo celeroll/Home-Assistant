@@ -56,6 +56,8 @@ https://github.com/corbanmailloux/esp-mqtt-rgb-led
 
 
 ## MQTT
+MQTT client for windows: `mqttfx`
+---
 Very good descriptions for installing MQTT mosquitto are:
 
 [Video BRUH](https://www.youtube.com/watch?v=AsDHEDbyLfg)
@@ -75,7 +77,7 @@ Start and stop mosquitto broker, even if autostart is enabled:
 sudo /etc/init.d/mosquitto stop
 
 sudo /etc/init.d/mosquitto start
-user: alop/prezime
+user&pass for MQTT: can be found in hass.io customization.yaml
 ```
 
 Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assistant.io/t/mqtt-working-mosquitto-cloudmqtt-bridge/1830/5)
