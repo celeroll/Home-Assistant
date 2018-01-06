@@ -24,6 +24,15 @@ Restart HASS:
 sudo systemctl restart home-assistant.service
 ```
 
+Hass.io repositories
+```
+https://github.com/vkorn/hassio-addons
+https://github.com/james-fry/hassio-addons
+https://github.com/notoriousbdg/hassio-addons
+https://github.com/bestlibre/hassio-addons
+```
+
+
 
 ## Arduino / ESP8266 / NodeMCU
 
