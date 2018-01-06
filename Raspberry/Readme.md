@@ -32,9 +32,9 @@ Like to source is here:
 [Xonfluence GitHub](https://github.com/Helly1206/skin.xonfluence)
 
 - Menu can be edited directly in the `settings.xml` file:
- ```C:\Users\XXX\AppData\Roaming\Kodi\userdata\addon_data\skin.xonfluence```
-
-- However it is important, that the skin is not active, when editing the file. Skin has to be disabled first. Otherwise, the changes will not be taken.
+ ```C:\Users\XXX\AppData\Roaming\Kodi\userdata\addon_data\skin.xonfluence
+ ```
+ - However it is important, that the skin is not active, when editing the file. Skin has to be disabled first. Otherwise, the changes will not be taken.
 
 
 ## Toggle fullscreen/window mode
