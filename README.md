@@ -56,8 +56,10 @@ https://github.com/corbanmailloux/esp-mqtt-rgb-led
 
 
 ## MQTT
-
 MQTT client for windows: `mqttfx`
+
+Just listen to `#`
+
 ---
 Very good descriptions for installing MQTT mosquitto are:
 
