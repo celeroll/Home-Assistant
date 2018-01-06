@@ -1,8 +1,8 @@
 # Raspberry - OSMC
 
-[Setup.md][d21dcd3b]
+[Setup OSMC][d21dcd3b]
 
-  [d21dcd3b]: Raspberry/ "Setup.md"
+  [d21dcd3b]: Raspberry/ "Setup"
 
 # Home assistant
 
