@@ -32,6 +32,20 @@ https://github.com/notoriousbdg/hassio-addons
 https://github.com/bestlibre/hassio-addons
 ```
 
+Grafana add on, install plugins, use this info here:
+```
+{
+  "env_var": [
+    {
+      "name": "GF_DEFAULT_INSTANCE_NAME",
+      "value": "my-instance"
+    }
+  ]
+}
+```
+
+
+
 
 
 ## Arduino / ESP8266 / NodeMCU
