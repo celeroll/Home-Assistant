@@ -53,11 +53,6 @@ To do this, go into ssh and enter this code:
 `curl -i -XPOST http://hassio.local:8086/query --data-urlencode "q=CREATE DATABASE home_assistant"`
 
 
-
-
-
-
-
 ## Arduino / ESP8266 / NodeMCU
 
 This is an instruction how to install arduino IDE "portable".
