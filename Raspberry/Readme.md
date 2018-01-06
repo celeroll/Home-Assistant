@@ -1,14 +1,14 @@
 ## Install OSMC
 
 Download image from [osmc.tv](http://osmc.tv) and install it with "osmc installer".
-- Wifi should be setup in the 'osmc installer'
+- Wifi should be setup in the `osmc installer`
 - SSH is activated on default. User: osmc, Pass: OSMC
 
 ### Install Harmony remote / hub
 
 This can be tricky. But the main idea is to add new harmony device, so that "bluetooth pairing" appear,  and OSMC can see the harmony keyboard as bluetooth device.
-- Manufacturer: 'Microsoft'
-- Device: 'Media Player'
+- Manufacturer: `Microsoft`
+- Device: `Media Player`
 
 After the whole pairing process, "old" activity should also work and new added  devices can be removed from harmony app.
 
