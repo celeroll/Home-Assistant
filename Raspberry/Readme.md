@@ -41,7 +41,7 @@ To be able to map a mouse wheel for a specific Kodi command, it is important, th
 
 - An example for such a file can be found here:
 [togglefullscreen.xml](files/)
-- Another example of advanced settings: [Kodi mouse alternative settings] (http://kodi.wiki/view/Alternative_keymaps_for_mice)
+- Another example of advanced settings: [Kodi mouse alternative settings](http://kodi.wiki/view/Alternative_keymaps_for_mice)
 
 ## BG Repository
 For BG subtitles, there is a repository hosted by `martinstz`.
