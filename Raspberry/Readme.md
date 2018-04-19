@@ -51,3 +51,6 @@ For BG subtitles, there is a repository hosted by `martinstz`.
 [Mar33 BG repository](https://kodibg.org/forum/post-8946.html)
 
 ## Ambylight
+
+## Picons for satelites
+https://linuxsat-support.com/thread/124700-picons-by-chocholou%C5%A1ek/ 
