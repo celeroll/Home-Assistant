@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Button Ids: -->
+<!-- 0: left -->
+<!-- 1: right -->
+<!-- 2: middle -->
+<!-- 3/4/5/6: extra -->
+
+<keymap>
+<global>
+<mouse>
+<click id="2">togglefullscreen</click>
+</mouse>
+</global>
+</keymap>

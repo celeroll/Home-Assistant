@@ -1,0 +1,48 @@
+<keymap>
+  <Global>
+    <mouse>
+ <!--     <wheeldown>VolumeDown</wheeldown> --> <!-- Remove arrows to enable global volume control -->
+ <!--     <wheelup>VolumeUp</wheelup> --> <!-- Remove arrows to enable global volume control -->
+    </mouse>
+  </Global>
+  <FullScreenVideo>
+    <mouse>
+      <mousedrag>noop</mousedrag>
+      <mousemove>noop</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </FullScreenVideo>
+  <VideoMenu>
+    <mouse>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </VideoMenu>
+  <VideoOSD>
+    <mouse>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </VideoOSD>
+ <Visualisation>
+    <mouse>
+      <mousedrag>noop</mousedrag>
+      <mousemove>noop</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </Visualisation>
+  <MusicOSD>
+    <mouse>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </MusicOSD>
+</keymap>
