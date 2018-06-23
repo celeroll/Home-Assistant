@@ -4,6 +4,10 @@
 
   [d21dcd3b]: Raspberry/ "Setup"
 
+# Cooking :)
+
+[Cooking](cooking/)
+
 # Home assistant
 
 This is a list of different installation steps that I have performed:
