@@ -22,8 +22,8 @@ Moj nacin:
 8. Zagrijati maslinovo ulje i proprziti piletinu
 9. Kad je poruneila piletina, onda je izvaditi i staviti na stranu.
 10. U istom tiganju (povremeno dodavati vode da ne zagori)
-  1. proprziti bijeli i crni luk
-  2. dodati ostalo povrce
+  - proprziti bijeli i crni luk
+  - dodati ostalo povrce
 11. dodati meso
 12. u drugoj posudi pripremiti pileci sos
 13. Sos dodati u tiganj sa povrcem
