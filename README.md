@@ -11,7 +11,9 @@
 # Delete network credentials
 
 Examle: NET USE * /DELETE
+
 Check what is saved: net use
+
 I used: net use \\hassio /delete 
 
 # Home assistant
