@@ -8,6 +8,12 @@
 
 [Cooking](cooking/)
 
+# Delete network credentials
+
+Examle: NET USE * /DELETE
+Check what is saved: net use
+I used: net use \\hassio /delete 
+
 # Home assistant
 
 This is a list of different installation steps that I have performed:
