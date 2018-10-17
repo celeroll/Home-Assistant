@@ -118,6 +118,22 @@ Interesting forum topic [mosquitto  and cloudmqtt](https://community.home-assist
 
 And also here is detail what to do for bridging mosquitto and cloudmqtt [bridge mosquitto and cloudmqtt](https://github.com/bastshoes/hass_config/blob/master/README.md)
 
+---
+Setup Sonoff Dual in living room:
+
+To be able to have on startup yellow light on and blue off, following payload has to be published through `mqttfx`
+
+```
+cmnd/sonoff_light_livingroom/POWER2 
+payload: off
+```
+Furthermore on sonoff consol:
+
+```
+PowerRetain Off
+```
+
+
 
 ## Install Amazon dash
 For the installation I have followed the steps from BRUH.
