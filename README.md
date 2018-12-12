@@ -133,6 +133,8 @@ Furthermore on sonoff consol:
 PowerRetain Off
 ```
 
+Another good explanation for mqtt on docker:
+[https://github.com/martikainen87/Home-Automation/wiki/MQTT](https://github.com/martikainen87/Home-Automation/wiki/MQTT)
 
 
 ## Install Amazon dash
