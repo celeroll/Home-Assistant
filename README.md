@@ -84,6 +84,17 @@ Good example for simple integration analog LED with HA over MQTT
 
 https://github.com/corbanmailloux/esp-mqtt-rgb-led
 
+I have flashed tasmota on NODEMCU.
+To get into flash mode, just plug USB into computer. No need for pushing buttons...
+
+Basement NodeMCU with LED (Relay2) and PIR(Switch1) Sensor, just execute into tasmota console:
+
+```
+rule1 1
+rule1 on switch1#state=1 do backlog power2 on; ruletimer1 12 endon on rules#timer=1 do power2 off endon
+switchmode1 1
+```
+
 
 
 ## MQTT
