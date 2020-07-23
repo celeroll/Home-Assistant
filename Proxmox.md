@@ -68,7 +68,7 @@ mv /etc/samba/smb.conf /etc/samba/smb.bak
 nano /etc/samba/smb.conf
 ```
 13. The configration looks like this 
-```conf
+```Nginx
 [global]
 workgroup = WORKGROUP
 
@@ -76,7 +76,11 @@ workgroup = WORKGROUP
 path = /mnt/share
 writeable = yes
 browseable = yes
-valid user = pegasus
+valid user = homeuser
 force user = root
 ```
-
+14. We create new samba user and linux user with same password.
+```
+smbpasswd -a homeuser
+adduser homeuser
+```
