@@ -14,4 +14,37 @@ useradd  -g homegroup -m homeuser
 ```
 - to find out what ids created user has, do `id homeuser`
 
-4. 
+4. Create new `zfs pool`
+- execute for example `zfs create DATA3TB/homeshare/share`
+5. Give to the new created user ownership of this folder
+```
+chgrp -R homegroup /DATA3TB/homeshare/share
+chown -R homeuser /DATA3TB/homeshare/share
+```
+6. Then create new lxc container with ubuntu (for example with `id: 203`).
+7. Now we need to edit `203.conf`
+
+    Location of every **conf** file is in `/etc/pve/lxc/*.conf`
+    To edit `203.conf` we execute 
+```
+nano /etc/pve/lxc/203.conf
+```
+- We need to add following lines 
+```
+mp0: /DATA3TB/homeshare/share/,mp=/mnt/share
+lxc.idmap: u 0 100000 1607
+lxc.idmap: g 0 100000 1000
+lxc.idmap: u 1607 1607 1
+lxc.idmap: g 1000 1000 1
+lxc.idmap: u 1608 101608 63928
+lxc.idmap: g 1001 101001 64535
+```
+- First line `mp0...`defines the new share
+- other lines assume that the user `homeuser` and his group `homegroup`have id´s of `user = 1607` and `group = 1000`
+8. Only once per node (**proxmox server**) following files have also to be edited:
+```markdown
+/etc/subuid
+/etc/sub*g*id
+```
+
+
