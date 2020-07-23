@@ -1,5 +1,10 @@
 # Proxmox
 
+## Source  links:
+
+- [https://pve.proxmox.com/wiki/Unprivileged_LXC_containers](https://pve.proxmox.com/wiki/Unprivileged_LXC_containers)
+- [https://github.com/ahuacate/proxmox-lxc-homelab#100-unprivileged-lxc-containers-and-file-permissions](https://github.com/ahuacate/proxmox-lxc-homelab#100-unprivileged-lxc-containers-and-file-permissions)
+
 ## How to setup shared directory on Proxmox host to be used in multiple LXC containers (mount)
 
 1. On Proxmox create new user group (like **homegroup**) in Datacenter
@@ -44,7 +49,9 @@ lxc.idmap: g 1001 101001 64535
 8. Only once per node (**proxmox server**) following files have also to be edited:
 ```markdown
 /etc/subuid
-/etc/sub*g*id
+/etc/subgid
 ```
-
+- In both files we add lines:
+  - in subuid `root:1607:1`
+  - in subgid `root:1000:1`
 
