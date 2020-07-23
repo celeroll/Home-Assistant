@@ -1,3 +1,7 @@
+# Proxmox
+
+[Proxmox explanation](Proxmox.md)
+
 # Raspberry - OSMC
 
 [Setup OSMC][d21dcd3b]
