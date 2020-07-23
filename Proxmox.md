@@ -7,4 +7,11 @@
 
 ![Proxmox user](images/Proxmox_user_group.jpg)
 
-3. Create new user on node through command line
+3. Create new user on node through command line 
+```
+groupadd homegroup &&
+useradd  -g homegroup -m homeuser
+```
+- to find out what ids created user has, do `id homeuser`
+
+4. 
