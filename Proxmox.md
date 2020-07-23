@@ -55,3 +55,28 @@ lxc.idmap: g 1001 101001 64535
   - in subuid `root:1607:1`
   - in subgid `root:1000:1`
 
+9. To test if the mount and rights has worked, we test it when we login into lcs container and execute `df -h`.
+
+    We must see our share `/mnt/share/`
+10. Then we can try to create new file or folder in that location `mkdir /mnt/share/testfolder`
+
+    If we don´t receive any error, then everything is fine.
+11. In lcx container install samba for sharing with `apt update && apt install samba`
+12. After that we modify samba config file
+```
+mv /etc/samba/smb.conf /etc/samba/smb.bak
+nano /etc/samba/smb.conf
+```
+13. The configration looks like this 
+```conf
+[global]
+workgroup = WORKGROUP
+
+[data]
+path = /mnt/share
+writeable = yes
+browseable = yes
+valid user = pegasus
+force user = root
+```
+
