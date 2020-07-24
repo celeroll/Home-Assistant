@@ -95,3 +95,29 @@ groupadd -g 1000 homegroup &&
 useradd -u 1607 -g homegroup -m homeuser
 passwd homeuser
 ```
+
+
+16. Docker on Proxmox with portainer 
+```
+apt update
+ 
+apt install docker.io
+systemctl start docker
+systemctl enable docker
+ 
+### install docker-compose ###
+ 
+apt install curl
+ 
+curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 
+chmod +x /usr/local/bin/docker-compose
+ 
+docker-compose --version
+ 
+## install portainer ##
+ 
+docker volume create portainer_data
+ 
+docker run -d -p 9100:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /data/configs/dockerconfig/portainer:/data -e TZ=Europe/Berlin  portainer/portainer:latest
+```
