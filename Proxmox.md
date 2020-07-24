@@ -69,7 +69,7 @@ lxc.idmap: g 1001 101001 64535
 10. Then we can try to create new file or folder in that location `mkdir /mnt/share/testfolder`
 
     If we don´t receive any error, then everything is fine.
-11. In lcx container install samba for sharing with `apt update && apt install samba`
+11. In lcx container install samba for sharing with `apt update && apt install samba -Y`
 12. After that we modify samba config file
 ```
 mv /etc/samba/smb.conf /etc/samba/smb.bak
@@ -85,9 +85,10 @@ path = /mnt/share
 writeable = yes
 browseable = yes
 valid user = homeuser
-force user = homeuser
 ```
-14. We create new samba user and linux user **with same password**.
+14. After every change of `smb.conf` file, we need to restart samba service with `systemctl restart smbd.service`
+
+15. We create new samba user and linux user **with same password**.
 ```
 smbpasswd -a homeuser
 groupadd -g 1000 homegroup &&
