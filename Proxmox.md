@@ -5,6 +5,14 @@
 - [https://pve.proxmox.com/wiki/Unprivileged_LXC_containers](https://pve.proxmox.com/wiki/Unprivileged_LXC_containers)
 - [https://github.com/ahuacate/proxmox-lxc-homelab#100-unprivileged-lxc-containers-and-file-permissions](https://github.com/ahuacate/proxmox-lxc-homelab#100-unprivileged-lxc-containers-and-file-permissions)
 
+## Useful nano commands:
+```
+Ctrl + o --> save changes
+Ctrl + x --> exit nano
+Ctrl + k --> delete line
+```
+
+
 ## How to setup shared directory on Proxmox host to be used in multiple LXC containers (mount)
 
 1. On Proxmox create new user group (like **homegroup**) in Datacenter
@@ -77,10 +85,12 @@ path = /mnt/share
 writeable = yes
 browseable = yes
 valid user = homeuser
-force user = root
+force user = homeuser
 ```
-14. We create new samba user and linux user with same password.
+14. We create new samba user and linux user **with same password**.
 ```
 smbpasswd -a homeuser
-adduser homeuser
+groupadd -g 1000 homegroup &&
+useradd -u 1607 -g homegroup -m homeuser
+passwd homeuser
 ```

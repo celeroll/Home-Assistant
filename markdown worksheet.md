@@ -80,6 +80,10 @@ Two before and after (no spaces) a section of texts makes it bold
 
 One before and after (no spaces) a section of texts makes it bold 
 
+**Bold Text with asterisks**
+
+__Bold Text with underscores__
+
 <!-- 
     Example
 
@@ -87,6 +91,10 @@ One before and after (no spaces) a section of texts makes it bold
     _Italicized Text with underscores_
 --> 
 You can also put Bold and Italicized text inline by surrounding a group of words.
+
+*Italicized Text with asterisks*
+
+_Italicized Text with underscores_
 
 <!-- 
     Example
@@ -110,7 +118,7 @@ For what it's worth, I prefer dashes...
 -->
 
 > **TODO** Create a horizontal rule
-
+***
 ---
 
 ## Lists
@@ -124,6 +132,15 @@ Create unordered lists using '-', '*', '+,
     + item
     - sdfsd
 -->
+
+- item
+* item
++ item
+    - sdfsd
+        - asdasd
+            - asdasd
+                - asdasd
+    - teest
 
 You can create sublists by indenting
 <!-- 
@@ -143,6 +160,11 @@ Create ordered lists using a number prefix
     3. item 3 
 -->
 
+1. item 1
+2. item 2
+3. item 3 
+
+
 > **TODO** Create an unordered list of your 5 favorite TV Shows 
 
 > **TODO** Create an ordered list of your top 5 Movies 
@@ -158,6 +180,8 @@ Create a link by surrounding it with angle bracket
     <http://www.jamesqquick.com> 
 -->
 
+<http://www.jamesqquick.com>
+
 Create a link with text by surrounding text with brackets, [], and link immediately following with parenthesis ()
 
 <!-- 
@@ -165,6 +189,8 @@ Create a link with text by surrounding text with brackets, [], and link immediat
 
     [James Q Quick](http://www.jamesqquick.com) 
 -->
+
+[James Q Quick](http://www.jamesqquick.com) 
 
 > **TODO** Create a link to your website, twitter, or github. with no text
 
@@ -267,6 +293,15 @@ The above does not give language specific highlighting.  You can specify the pro
     var num2 = 0;
     ``` 
 -->
+
+```json
+var num = 0;
+var num2 = 0;
+{
+    "test":"test2"
+}
+```
+
 
 <!--
     Example HTML
