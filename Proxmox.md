@@ -123,6 +123,8 @@ docker run -d -p 9100:9000 --name=portainer --restart=always -v /var/run/docker.
 ```
 17. Create cifs (samba share) in ubuntu VM (not LXC!)
 
+**Important** Add in /etc/fstab file "argument" `nolock`!
+
 [Ubuntu CIFC share in VM](https://gist.github.com/ipbastola/eaa107b4640262a108fcc3ef57d24836)
 
 18. Create nfs (synology share) in ubuntu VM.
