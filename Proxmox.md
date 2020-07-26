@@ -121,3 +121,15 @@ docker volume create portainer_data
  
 docker run -d -p 9100:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /data/configs/dockerconfig/portainer:/data -e TZ=Europe/Berlin  portainer/portainer:latest
 ```
+17. Create cifs (samba share) in ubuntu VM (not LXC!)
+
+[Ubuntu CIFC share in VM](https://gist.github.com/ipbastola/eaa107b4640262a108fcc3ef57d24836)
+
+18. Create nfs (synology share) in ubuntu VM.
+
+[Ubuntu NFS share in VM](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-18-04#step-5-%E2%80%94-creating-mount-points-and-mounting-directories-on-the-client)
+
+19. If the current user in Ubuntu has only `$` in shell, then follwoing command has to be executed to repair it: 
+
+`chsh -s /bin/bash john`
+
